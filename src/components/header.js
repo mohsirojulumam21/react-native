@@ -6,8 +6,10 @@ const header = (props) => {
     return(
         <view>
                 <StatusBar barStyle='dark-content' backgroundcolor={'#f4f4f4'}/>
-        <text style={{color: 'black'}}>hallo</text>
-        <text style={{fontSize: 22,fontWeight: 'bold', color: '#212121'}}>
+        <text 
+        style={{color: 'black'}}>hallo</text>
+        <text 
+        style={{fontSize: 22,fontWeight: 'bold', color: '#212121'}}>
           mamad salekor
           </text>
           <view style={{flexDirection:'row'}}>

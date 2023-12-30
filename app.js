@@ -42,7 +42,10 @@ const app = () => {
           end={{x: 0, y: 0}}
           style={{borderRadius: 10}}
           colors={['#018bf7', '#00baf7',]}>
-            <TouchableOpacity style={{padding: 20, borderRadius:10}}>
+            <TouchableOpacity 
+            style={{
+              padding: 20, 
+              borderRadius:10}}>
               <view style={{flexDirection:'row'}}>
               <image source={require('./src/image/amam.jpg')} style={{
                 width: 50, 
@@ -52,8 +55,12 @@ const app = () => {
                 borderWidth: 2
                 }}
                 />
-                <view style={{flex: 1, marginLeft: 10, justifyContent: 'center'}}>
-                  <text style={{color: 'white', fontWeight:'bold'}}>Dr. zaini</text>
+                <view 
+                style={{
+                  flex: 1, 
+                  marginLeft: 10, 
+                  justifyContent: 'center'}}>
+                  <text style={{color: 'white', fontWeight:'bold'}}>Dr. zaini,Sp.</text>
                   <text style={{color: 'white'}}>Dokter umum</text>
 
                 </view>
